@@ -1,5 +1,6 @@
 import styled from 'styled-components'
 
 export const LayoutContainer = styled.div`
-  width: 100%;
+  width: calc(100% - 32px);
+  margin: auto;
 `
