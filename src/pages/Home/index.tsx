@@ -1,9 +1,11 @@
-import { Container } from './styles'
+import { OurCoffees } from './components/OurCoffees'
+
+import { HomeContainer } from './styles'
 
 export function Home() {
   return (
-    <Container>
-      <h1>Home</h1>
-    </Container>
+    <HomeContainer>
+      <OurCoffees />
+    </HomeContainer>
   )
 }
